@@ -7,5 +7,6 @@ last I want to get a new job. I am good at studying.
 HTML, CSS, PHP.
 6. My diploma from university on Android and PHP. Now I am working with 
 ABL. 
+7. BSUIR, Java for junior offline course.
 
 
