@@ -8,5 +8,7 @@ HTML, CSS, PHP.
 6. My diploma from university on Android and PHP. Now I am working with 
 ABL. 
 7. BSUIR, Java for junior offline course.
+8. Pre-intermadiate or little higher. last course was finished on
+december 2019
 
 
