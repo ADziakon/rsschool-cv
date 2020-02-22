@@ -5,3 +5,4 @@
 last I want to get a new job. I am good at studying. 
 5. First level of Java (offline course), SQL, ABL, progress 4GL,SVN, 
 HTML, CSS, PHP.
+7. BSUIR, Java for junior offline course.
