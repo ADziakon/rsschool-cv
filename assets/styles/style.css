@@ -1,0 +1,124 @@
+/* inika-regular - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* inika-700 - latin */
+@font-face {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* inter-700 - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  *, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+/*header styles start*/
+.header{
+    background-color: rgb(172, 202, 204);
+    height: 260px;
+}
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  /* display: flex; */
+}
+.header__wrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-title__box{
+  height: 160px;
+  width:500px;
+  /* margin-top:20px; */
+  margin-left:400px;
+  background-color: #fff;
+  /* padding-top: 40px; */
+
+}
+.inner__box{
+  height: 120px;
+  border: 2px solid rgb(74, 82, 83);
+  padding:1px 10px 10px 10px;
+  margin: 20px;
+  text-align: center;
+}
+.header__menu{
+  padding-top: 2px;
+}
+.header-menu__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header-menu_item{
+  margin-right: 20px;
+  list-style: none;
+  width: 110px;
+  height: 30px;
+  background-color:antiquewhite;
+  text-align: center;
+  padding: 5px;
+}
+.header-menu_item a{
+  text-decoration: none;
+}
+.header-contacts__list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header-contacts__item{
+  margin-right: 20px;
+  list-style: none;
+  width: 100px;
+  height: 30px;
+  background-color:antiquewhite;
+  text-align: center;
+  padding: 5px;
+}
+.footer{
+  background-color: rgb(234, 200, 177);
+  height: 100px;
+}
+.footer__wrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}

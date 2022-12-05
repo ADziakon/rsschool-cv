@@ -1,7 +1,7 @@
 ![Aksana Dziakanchuk](my_foto.png "CV-foto")
 # Aksana Dziakanchuk
 
-### Junior FrontEnd Developer
+### Junior Front-End Developer
 
 ## Contact information
 
