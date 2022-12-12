@@ -38,7 +38,7 @@ html{
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-  *, *::before, *::after{
+*, *::before, *::after{
     box-sizing: inherit;
 }
 body{
@@ -51,7 +51,7 @@ body{
     height: 260px;
 }
 .wrapper{
-  max-width: 1440px;
+  max-width: 1061px;
   margin: 0 auto;
   /* display: flex; */
 }
@@ -65,7 +65,7 @@ body{
   height: 160px;
   width:500px;
   /* margin-top:20px; */
-  margin-left:400px;
+  margin-left:280px;
   background-color: #fff;
   /* padding-top: 40px; */
 
@@ -111,6 +111,32 @@ body{
   text-align: center;
   padding: 5px;
 }
+/* about styles start */
+.about__wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+}
+
+/* about styles end */
+
+/* skils styles start */
+.skills__title-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+}
+.skills__detail-info{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+}
+
+/* skils styles end*/
+
 .footer{
   background-color: rgb(234, 200, 177);
   height: 100px;
