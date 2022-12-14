@@ -1,39 +1,4 @@
-/* inika-regular - latin */
-@font-face {
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/inika-v21-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inika-v21-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-  /* inika-700 - latin */
-@font-face {
-    font-family: 'Inika';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''),
-         url('../fonts/inika-v21-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inika-v21-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-  /* inter-regular - latin */
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-         url('../fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-  /* inter-700 - latin */
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''),
-         url('../fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 
 html{
@@ -63,7 +28,7 @@ body{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-top: -20px;
+  /* margin-top: -20px; */
 
 }
 .header-title__box{
@@ -104,7 +69,7 @@ body{
   /* background-color:antiquewhite; */
   text-align: center;
   padding: 3px;
-  margin-top: -15px;
+  /* margin-top: -15px; */
   margin-bottom: 15px;
   margin-right: 10px;
 }
