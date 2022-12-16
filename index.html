@@ -18,13 +18,13 @@
             <nav class="header__menu">
                 <ul class="header-menu__list">
                     <li class="header-menu_item">
-                        <a href="#summary" class="nav-link">Summary</a>
+                        <a href="#summary" class="nav-link">About</a>
                     </li>
-                    <!-- <li class="header-menu_item">
-                        <a href="#contacts" class="nav-link">Contacts</a>
-                    </li> -->
                     <li class="header-menu_item">
-                        <a href="#skills" class="nav-link">Skills</a>
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                    </li>
+                    <li class="header-menu_item">
+                        <a href="#skills" class="nav-link">Education</a>
                     </li>
                     <!-- <li class="header-menu_item">
                         <a href="#code" class="nav-link">Code Example</a>
@@ -33,14 +33,14 @@
                         <a href="#experience" class="nav-link">Experience</a>
                     </li>
                     <li class="header-menu_item">
-                        <a href="#course" class="nav-link">Course</a>
+                        <a href="#course" class="nav-link">Project</a>
                     </li>
                     <!-- <li class="header-menu_item">
                         <a href="#languages" class="nav-link">Languages</a>
                     </li> -->
-                    <li class="header-menu_item">
+                    <!-- <li class="header-menu_item">
                         <a href="#project" class="nav-link">Project</a>
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
             <div class="header-title__wrap">
@@ -153,8 +153,8 @@
                                 <li class = "main-item">Development:</li>
                                 <li class = "skills-item">SVN</li>
                                 <li class = "skills-item">GIT</li>
-                                <li class = "skills-item">GITHub</li>
-                                <li class = "skills-item">GITLab</li>
+                                <li class = "skills-item">GitHub</li>
+                                <li class = "skills-item">Jira / Confluence</li>
                             </ul>
                             <ul class="education__wrap instrument-skills all-skills">
                                 <li class = "main-item">Instrument:</li>
@@ -196,9 +196,9 @@
                 </div>
                 <div class="experience__wrap">
                     <div class="experience__info">
-                        <h3>System analyst</h3>
-                        <p>Participation in the development and automation of banking products.
-                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</p>
+                        <h4 class="experience__title">System analyst</h4>
+                        <div>Participation in the development and automation of banking products.
+                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</div>
                     </div>
                     <div class="experience__box">
                         <div class="experience-year">March 2022 - Present, GP Solutions</div>
@@ -206,9 +206,9 @@
                 </div>
                 <div class="experience__wrap">
                     <div class="experience__info">
-                        <h3 class="experience__title">Lead System analyst</h3>
-                        <p>Participation in the development and automation of banking products.
-                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</p>
+                        <h4 class="experience__title">Lead System analyst</h4>
+                        <div>Participation in the development and automation of banking products.
+                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</div>
                     </div>
                     <div class="experience__box">
                         <div class="experience-year"> July 2018 - March 2022 , JSC Belgazprombank </div>
@@ -216,9 +216,9 @@
                 </div>
                 <div class="experience__wrap">
                     <div class="experience__info">
-                        <h3 class="experience__title">System Analyst</h3>
-                        <p>Participation in the development and automation of banking products.
-                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</p>
+                        <h4 class="experience__title">System Analyst</h4>
+                        <div>Participation in the development and automation of banking products.
+                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</div>
                     </div>
                     <div class="experience__box">
                         <div class="experience-year"> February 2016 - July 2018, JSC Belgazprombank </div>
@@ -226,9 +226,10 @@
                 </div>
                 <div class="experience__wrap">
                     <div class="experience__info">
-                        <h3 class="experience__title">Software Engineer</h3>
-                        <p>PHP, CSS, MySql, HTML, SQL, SSAS, SSIS, C#
-                            Development of ETL packages for loading data into the database. Participation in the development of the data warehouse. Development of a web resource for entering information into the database.</p>
+                        <h4 class="experience__title">Software Engineer</h4>
+                        <div>PHP, CSS, MySql, HTML, SQL, SSAS, SSIS, C#
+                            Development of ETL packages for loading data into the database. Participation in the development of the data warehouse. 
+                            Development of a web resource for entering information into the database.</div>
                     </div>
                     <div class="experience__box">
                         <div class="experience-year">May 2014 - December 2015, Biexpert</div>
@@ -250,26 +251,78 @@
                 <div class="projects__title"><h3 class="title-text">Projects</h3></div>
                 <div class="projects__line"></div>
             </div>
-            <div class="proj__wrap">
+            <div class="project__wrap">
                 <div class="code__wrap">
                     <pre>
                         <code>
-                            FOR EACH msg-impexp WHERE
-                            msg-impexp.msg-cat EQ 'op' AND
-                            msg-impexp.object-id EQ string(op.op) no-lock:
-                            IF msg-impexp.msg-type BEGINS 'iID' THEN DO:
-                                IF msg-impexp.msg-type BEGINS 'IBN' THEN NEXT.
-                                mMesImp = msg-impexp.msg-type + msg-impexp.msg-text.
-                            END.
-                            END.
+function sortByBit(arr) {
+ let arr2 = [];
+  let i;
+  arr.sort();
+  return arr.sort(function (a,b){
+    s1 = a.toString(2);
+    let counta = 0;
+    for (i=0; i&lt;s1.length; i++){
+      if (s1[i] == '1') 
+        counta++; 
+    }
+    s2 = b.toString(2);
+    let countb = 0;
+    for (i=0; i&lt;s2.length; i++){
+      if (s2[i] == '1') 
+        countb++; 
+    }
+    if (countb == counta)
+      return a-b;
+    return counta-countb;
+  });
+return arr;
+}
                         </code>
                     </pre>
                 </div>
-                <div class="project__wrap">
-                    <ul class="project">
+                <div class="project__card-wrap">
+                    <!-- <ul class="project">
                         <li> <a href="https://adziakon.github.io/rsschool-cv-old3/">  My CV on GitHub </a> </li>
                         <li> <a href="https://rolling-scopes-school.github.io/adziakon-JSFE2021Q3/museum/">  Task Museum </a> </li>
-                    </ul>
+                    </ul> -->
+                    <div class="project__card">
+                        <div class="project__card-pic">
+                            <img src="./assets/images/museum.png" alt="Museum" class="project__card-thumb" width="150" height="150">
+                        </div>
+                        <h3 class="project__card-title">Museum</h3>
+                        <p class="project__card-info">
+                            Landing page Louvre
+                        </p>
+                        <a href="https://rolling-scopes-school.github.io/adziakon-JSFE2022Q3/online-zoo/pages/main/" class="visit_link" >
+                            Visit
+                            
+                        </a>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__card-pic">
+                            <img src="./assets/images/plants.png" alt="Plants" class="project__card-thumb" width="150" height="150">
+                        </div>
+                        <h3 class="project__card-title">Plants</h3>
+                        <p class="project__card-info">
+                            Landing page Plants
+                        </p>
+                        <a href="https://rolling-scopes-school.github.io/adziakon-JSFEPRESCHOOL2022Q4/plants/" class="visit_link" >
+                            Visit
+                        </a>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__card-pic">
+                            <img src="./assets/images/zoo.png" alt="Online Zoo" class="project__card-thumb" width="150" height="150">
+                        </div>
+                        <h3 class="project__card-title">Online Zoo</h3>
+                        <p class="project__card-info">
+                            Landing page Online Zoo
+                        </p>
+                        <a href="https://rolling-scopes-school.github.io/adziakon-JSFEPRESCHOOL2022Q4/plants/" class="visit_link" >
+                            Visit
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -281,7 +334,7 @@
             <div class="footer__wrap">
                 <div class= "github">
                     <a href="https://github.com/ADziakon" class="github__link">
-                        <img src="./assets/images/github.png" width = "30" height="30" alt="my_github"> My GITHub</a>
+                        <img src="./assets/images/github.png" width = "30" height="30" alt="my_github">Github</a>
                 </div>
                 <div class="copy"><p>&copy;2022</p></div>
                 <div class="rsschool">
