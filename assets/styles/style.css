@@ -345,7 +345,7 @@ ul {
 }
 .visit_link{
   display: block;
-  background-color:antiquewhite;
+  background-color:rgb(172, 202, 204);
   width:140px;
   text-align: center;
   padding: 5px;
@@ -358,15 +358,16 @@ ul {
 }
 
 .footer{
-  background-color: rgb(234, 200, 177);
+  
   height: 100px;
 }
 .footer__wrap{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 30px;
+  background-color: antiquewhite;
 }
 .github__link{
   display: flex;
