@@ -382,7 +382,7 @@ ul {
   text-decoration: none;
 
 }
-.visit_link:hover, .visit_link:active, .visit_link:visited{
+.visit_link:hover, .visit_link:active{
   background-color:antiquewhite;
   cursor: pointer;
   border: 1px solid rgb(23, 106, 112);
@@ -412,4 +412,3 @@ ul {
 .github__link:hover{
   cursor: pointer;
 }
-
