@@ -71,16 +71,20 @@ body{
   padding: 3px;
   /* margin-top: -15px; */
   margin-bottom: 15px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
-.header-menu_item a{
+.nav-link{
   text-decoration: none;
   color: black;
 }
-.header-menu_item:hover{
+.nav-link:hover{
+  width:100%;
   background-color:antiquewhite;
   cursor: pointer;
-  border-radius: 1px solid rgb(23, 106, 112);;
+  border: 1px solid rgb(23, 106, 112);
+  border-radius: 5px;
+  padding: 2px;
+
 }
 .header-contacts__list{
   display: flex;
@@ -134,6 +138,17 @@ body{
   display: flex;
   align-items:center;
   column-gap: 5px;
+}
+.about-contacts__item:hover{
+  color: black;
+  background-color:antiquewhite;
+  cursor: pointer;
+  border: 1px solid rgb(23, 106, 112);
+  border-radius: 5px;
+  
+}
+.about-contacts__link:active, .about-contacts__link:visited {
+  color: black;
 }
 /* about styles end */
 
@@ -215,6 +230,17 @@ border-radius:5px;
   border-radius: 5px;
   width:100%;
   margin: 5px;
+}
+.skills_link{
+  color:black;
+  text-decoration: none;
+}
+.skills_link:visited{
+  color:black;
+}
+.skills_item-link:hover{
+  background-color:antiquewhite;
+  cursor: pointer;
 }
 .languages__item{
   list-style: none;
@@ -356,6 +382,11 @@ ul {
   text-decoration: none;
 
 }
+.visit_link:hover, .visit_link:active, .visit_link:visited{
+  background-color:antiquewhite;
+  cursor: pointer;
+  border: 1px solid rgb(23, 106, 112);
+}
 
 .footer{
   
@@ -373,4 +404,12 @@ ul {
   display: flex;
   align-items: center;
   column-gap: 5px;
+  color:black;
 }
+.github__link:visited{
+  color:black;
+}
+.github__link:hover{
+  cursor: pointer;
+}
+
