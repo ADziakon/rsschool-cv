@@ -18,7 +18,7 @@
             <nav class="header__menu">
                 <ul class="header-menu__list">
                     <li class="header-menu_item">
-                        <a href="#summary" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="header-menu_item">
                         <a href="#contacts" class="nav-link">Contacts</a>
@@ -33,7 +33,7 @@
                         <a href="#experience" class="nav-link">Experience</a>
                     </li>
                     <li class="header-menu_item">
-                        <a href="#course" class="nav-link">Project</a>
+                        <a href="#project" class="nav-link">Project</a>
                     </li>
                     <!-- <li class="header-menu_item">
                         <a href="#languages" class="nav-link">Languages</a>
@@ -71,17 +71,17 @@
     </header>
     <main class="main">
         <div class="wrapper">
-        <section class="about">
+        <section class="about" id="about">
             <div class="about__wrap">
                 <div class="about__info">
                     <h3 class="about__title"> About me</h3>
-                    <p>Programmer from my education. System analyst now at work, with 5 years of experience in banking sector.
-                            I am punctual and motivated individual who is able to work in a busy environment, and produce high standarts of work.
-                            Now I want to change my work, and find new direction for myself. So I started to learn RS Schools Course.
+                    <p>Programmer from my education. System analyst now at work, with 7 years of experience in banking sector.
+                       Now I want to change my work-way, and find new direction for myself inspiration. 
+                       So I started to learn RS Schools Course, and I hope it will be succeccful experience.
                     </p>
                 </div>
                 <div class="about__foto">
-                    <img src="./assets/images/cv_foto.png" alt="CV foto" width="200" height="200">
+                    <img src="./assets/images/cv_foto.png" alt="CV foto" width="250" height="250">
                 </div>
                 <div class="about__contacts">
                     <nav class="about-contacts__wrap">
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </section>
-        <section class="skills__wrap">
+        <section class="skills__wrap" id="skills">
                 <div class="skills__title-wrap">
                     <!-- <div class="skills__line"></div> -->
                     <div class="skills__title"><h3 class="title-text">Education</h3></div>
@@ -167,7 +167,9 @@
                                 <li class = "main-item">Data:</li>
                                 <li class = "skills-item">SOAP</li>
                                 <li class = "skills-item">REST</li>
-                                <li class = "skills-item">SQL</li>
+                                <li class = "skills-item skills_item-link">
+                                    <a href="https://www.sololearn.com/certificates/course/en/21187612/1060/landscape/png" class="skills_link">SQL</a>
+                                </li>
                                 <li class = "skills-item">JSON</li>
                             </ul>
                     </div>
@@ -188,7 +190,7 @@
                     </div>
                 </div>
             </section>
-            <section class="experience">
+            <section class="experience" id="experience">
                 <div class="experience__title-wrap">
                     <div class="experience__line"></div>
                     <div class="skills__title green-color"><h3 class="title-text">Experience</h3></div>
@@ -197,8 +199,8 @@
                 <div class="experience__wrap">
                     <div class="experience__info">
                         <h4 class="experience__title">System analyst</h4>
-                        <div>Participation in the development and automation of banking products.
-                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</div>
+                        <div>Participation in the development mobile app for bank.
+                            I work with such technologies as mobile (android, ios) app, Java, Rest services, Jira, Confluence.</div>
                     </div>
                     <div class="experience__box">
                         <div class="experience-year">March 2022 - Present, GP Solutions</div>
@@ -208,7 +210,7 @@
                     <div class="experience__info">
                         <h4 class="experience__title">Lead System analyst</h4>
                         <div>Participation in the development and automation of banking products.
-                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</div>
+                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira , SVN, SQL, UML, SOAP(XML).</div>
                     </div>
                     <div class="experience__box">
                         <div class="experience-year"> July 2018 - March 2022 , JSC Belgazprombank </div>
@@ -218,7 +220,7 @@
                     <div class="experience__info">
                         <h4 class="experience__title">System Analyst</h4>
                         <div>Participation in the development and automation of banking products.
-                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira (general view), SVN, SQL, UML, SOAP(XML).</div>
+                            I work with such technologies as Progress OpenEdge (ABL), Sonic ESB, MS Visio, Redmine, Jira , SVN, SQL, UML, SOAP(XML).</div>
                     </div>
                     <div class="experience__box">
                         <div class="experience-year"> February 2016 - July 2018, JSC Belgazprombank </div>
@@ -235,15 +237,8 @@
                         <div class="experience-year">May 2014 - December 2015, Biexpert</div>
                     </div>
                 </div>
-                <div class="experience">
-                    <div>
-                        <h4></h4>
-                        <p></p>
-                    </div>
-                    <div></div>
-                </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="project">
             <div class="projects__title-wrap">
                 <div class="projects__line"></div>
                 <div class="projects__title"><h3 class="title-text">Code example</h3></div>
@@ -294,7 +289,7 @@ return arr;
                         <p class="project__card-info">
                             Landing page Louvre
                         </p>
-                        <a href="https://rolling-scopes-school.github.io/adziakon-JSFE2022Q3/online-zoo/pages/main/" class="visit_link" >
+                        <a href="https://rolling-scopes-school.github.io/adziakon-JSFE2021Q3/museum/" class="visit_link" >
                             Visit
                             
                         </a>
@@ -319,7 +314,7 @@ return arr;
                         <p class="project__card-info">
                             Landing page Online Zoo
                         </p>
-                        <a href="https://rolling-scopes-school.github.io/adziakon-JSFEPRESCHOOL2022Q4/plants/" class="visit_link" >
+                        <a href="https://rolling-scopes-school.github.io/adziakon-JSFE2022Q3/online-zoo/pages/main/" class="visit_link" >
                             Visit
                         </a>
                     </div>
@@ -346,4 +341,27 @@ return arr;
         </div>
     </footer>
 </body>
+<script>
+    alert("Оценка - 130 баллов  Все критерии выполнены. Отзыв по пунктам ТЗ: Выполненные пункты:" +
+    "1) студент засабмитил в rs app ссылку на своё CV, задеплоенное на gh-pages" +
+    "2) вёрстка валидная. Для проверки валидности вёрстки используйте сервис" +
+    "https://validator.w3.org/. Валидной вёрстке соответствует надпись 'Document checking completed." +
+    "No errors or warnings to show'. В таком случае баллы за пункт требований выставляем полностью. Если есть предупреждения - warnings, но нет ошибок - errors, выставляем половину баллов за пункт требований"+
+    "3) header, main, footer" + 
+    "4) элемент nav" + 
+    "5) только один заголовок h1" + 
+    "6) заголовки h2" + 
+    "7) в footer есть ссылка на гитхаб автора работы, год создания приложения, логотип курса со ссылкой на курс. Если ссылка в футере ведёт на курс stage0, это не ошибка." + 
+    "8) для оформления СV используются css-стили" + 
+    "9) при уменьшении масштаба страницы браузера вёрстка размещается по центру по горизонтали, а не сдвигается в сторону" + 
+    "10) на странице СV есть фото или аватарка автора, пропорции изображения не искажены (т.е. картинка не деформирована, если её размер изменён, сохраняются пропорции исходного изображения), у изображения есть атрибут alt." + 
+    "11) навигация, контакты для связи и перечень навыков оформлены в виде списка ul > li или ul > li > a. Также допускается использование нумерованого списка ol > li или ol > li > a" + 
+    "12) краткую информацию о себе" +
+    "13) контакты для связи" + 
+    "14) перечень навыков" +
+    "15) пример кода. Код добавляется при помощи символов и тегов, а не картинкой" + 
+    "16) перечень выполненных учебных проектов со ссылками на исходный код или страницу приложения" + 
+    "17) информацию об образовании и уровне английского" +
+    "18) CV выполнено на английском языке")
+</script>
 </html>
