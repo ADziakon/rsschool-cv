@@ -73,6 +73,10 @@ body{
   margin-bottom: 15px;
   margin-right: 20px;
 }
+.link{
+  /* text-decoration: none; */
+  color:black;
+}
 .nav-link{
   text-decoration: none;
   color: black;
